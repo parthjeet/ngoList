@@ -1,0 +1,41 @@
+{% extends 'base.html' %} 
+{% block content %} 
+<div class="container">
+  <h1 class="text-center mb-3">NGO Table</h1>
+  {% if ngo_table_list %}
+  <table id="table" 
+			 data-toggle="table"
+			 data-filter-control="true"
+			 data-click-to-select="true"
+			 data-toolbar="#toolbar">
+	<thead>
+		<tr>
+			<th data-field="LOCATION" data-filter-control="input" data-sortable="true">LOCATION</th>
+			<th data-field="TARGET_GROUPS" data-filter-control="select" data-sortable="true">TARGET GROUPS</th>
+			<th data-field="ORGANIZATION" data-filter-control="input" data-sortable="true">ORGANIZATION</th>
+      <th data-field="TYPE_OF_BENIFIT" data-filter-control="select" data-sortable="true">TYPE OF BENIFIT</th>
+      <th data-field="WHAT_WILL_BE_PROVIDED" data-filter-control="select" data-sortable="true">WHAT WILL BE PROVIDED</th>
+      <th data-field="DONATION_LINK_INFO" data-filter-control="select" data-sortable="true">DONATION LINK / INFO</th>
+      <th data-field="Exemption" data-filter-control="select" data-sortable="true">EXEMPTION</th>
+		</tr>
+  </thead>
+  <tbody>
+    {% for ngo in ngo_table_list %}
+    <tr>
+			<td class="bs-checkbox "><input data-index="0" name="btSelectItem" type="checkbox"></td>
+      <td>{{ ngo.LOCATION }}</td>
+      <td>{{ ngo.TARGET_GROUP }}</td>
+      <td>{{ ngo.ORGNIZATION }}</td>
+      <td>{{ ngo.TYPE_OFBENIFIT }}</td>
+      <td>{{ ngo.WHAT_WILL_BE_PROVIDED }}</td>
+      <td>{{ ngo.DONATION_LINK_INFO }}</td>
+      <td>{{ ngo.Exemption }}</td>
+		</tr>
+    {% endfor %}
+  </tbody>
+  </table>
+  {% else %}
+    <p>No polls available</p>
+  {% endif %}
+{% endblock %}
+</div>
