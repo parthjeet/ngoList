@@ -1,0 +1,353 @@
+[{
+	"model": "ngoTable.ngotable",
+	"pk": 1,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai, Thane, Airoli, Bhiwandi",
+		"TARGET_GROUPS": "Urban poor, Daily wagers",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "Khushiyaan Foundation",
+		"INITIATIVE": "Roti Ghar",
+		"WEBSITE": "http:\/\/www.khushiyaanfoundation.org\/index.php\nMore info on their Covid-19 efforts: https:\/\/www.thebetterindia.com\/221621\/coronavirus-india-covid-19-initiative-poor-workers-mumbai-bengaluru-delhi-chennai-jov30\/",
+		"DONATION_LINK": "N\/A",
+		"DONATION_INFO": "9769181218 via Paytm or Google Pay",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 2,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N\/A",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Goonj",
+		"INITIATIVE": "Rahat Covid-19",
+		"WEBSITE": "https:\/\/goonj.org\/support-covid-19-affected",
+		"DONATION_LINK": "Please visit: https:\/\/goonj.org\/support-covid-19-affected",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "Aim to reach about 2 lakh families. Also aim to deal with health issues, debt and education in the aftermath of the pandemic"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 3,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Daily wagers, Homeless people, Health workers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "YUVA (Youth for Unity and Voluntary Action)",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.instagram.com\/officialyuva\/",
+		"DONATION_LINK": "https:\/\/www.instagram.com\/p\/B-GmimZKDpc\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 4,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "Delhi",
+		"TARGET_GROUPS": "Homeless people",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Uday Foundation",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
+		"DONATION_LINK": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 5,
+	"fields": {
+		"STATE_UT": "Uttar Pradesh",
+		"SPECIFIC_LOCATION": "Noida",
+		"TARGET_GROUPS": "Slum and street children",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
+		"ORGANIZATION": "Voice of Slum",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.voiceofslum.org\/",
+		"DONATION_LINK": "https:\/\/donatekart.com\/VOS\/Help-children",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 6,
+	"fields": {
+		"STATE_UT": "Uttarakhand",
+		"SPECIFIC_LOCATION": "Corbett, Dehradun",
+		"TARGET_GROUPS": "Waste pickers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
+		"ORGANIZATION": "Waste Warriors",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/wastewarriors.org\/message-on-covid-19-and-our-relief-fund\/",
+		"DONATION_LINK": "https:\/\/fundraisers.giveindia.org\/projects\/waste-workers-improving-lives-and-working-conditions",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 7,
+	"fields": {
+		"STATE_UT": "Manipur",
+		"SPECIFIC_LOCATION": "Imphal",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers, Sex workers, Orphanages, Transpersons",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "Ya_all",
+		"INITIATIVE": "Khudol Initiative",
+		"WEBSITE": "https:\/\/www.yaall.org\/",
+		"DONATION_LINK": "https:\/\/www.yaall.org\/donate-page",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 8,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "South-east Delhi",
+		"TARGET_GROUPS": "Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief, Personal Protection Equipment, Awareness generation",
+		"ORGANIZATION": "Yellow Streets + Aumtara Foundation",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.facebook.com\/yellowstreets\/photos\/a.1468387356634953\/1745180888955597\/?type=3&theater",
+		"DONATION_LINK": "https:\/\/www.facebook.com\/yellowstreets\/photos\/a.1468387356634953\/1745180888955597\/?type=3&theater",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "Yellow Streets builds though-process for sustainability and EQ through rugby"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 9,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N\/A",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Zomato Feeding India",
+		"INITIATIVE": "Feed the Daily Wager",
+		"WEBSITE": "https:\/\/www.feedingindia.org\/donate",
+		"DONATION_LINK": "https:\/\/www.feedingindia.org\/donate",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 10,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N\/A",
+		"TARGET_GROUPS": "Daily wagers, Old and infirm",
+		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Awareness generation",
+		"ORGANIZATION": "Child Help Foundation",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/childhelpfoundation.in\/donate-for-coronavirus\/",
+		"DONATION_LINK": "https:\/\/covid19.ketto.org\/fundraiser\/coronavirus",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 11,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Ooty",
+		"TARGET_GROUPS": "Slum dwellers, Old and infirm, Farmers, Daily wagers",
+		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Awareness generation, Medical needs",
+		"ORGANIZATION": "Keystone Foundation",
+		"INITIATIVE": "Covid-19 Relief Fund",
+		"WEBSITE": "https:\/\/keystone-foundation.org\/",
+		"DONATION_LINK": "https:\/\/keystone-foundation.org\/support-us\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 12,
+	"fields": {
+		"STATE_UT": "Bihar",
+		"SPECIFIC_LOCATION": "N\/A",
+		"TARGET_GROUPS": "Covid-19 patients",
+		"TYPE_OF_BENEFIT": "Medical needs",
+		"ORGANIZATION": "Doctors For You",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "http:\/\/doctorsforyou.org\/",
+		"DONATION_LINK": "https:\/\/milaap.org\/fundraisers\/support-doctors-for-you?community=10177",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "Funding to be used to set up a 20-bedded quarantine facility for management of suspected and serious Covid-19 cases."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 13,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Chennai",
+		"TARGET_GROUPS": "Animals care",
+		"TYPE_OF_BENEFIT": "Facility maintenance",
+		"ORGANIZATION": "The Madras Crocodile Bank Trust",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "http:\/\/madrascrocodilebank.org\/web\/",
+		"DONATION_LINK": "http:\/\/madrascrocodilebank.org\/web\/make_a_donation",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "Funding to be used to maintain the Crocodile bank."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 14,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "North-East Delhi",
+		"TARGET_GROUPS": "Homeless people",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief",
+		"ORGANIZATION": "Foundation for Poverty Alleviation",
+		"INITIATIVE": "UMEED",
+		"WEBSITE": "http:\/\/www.fpa360.org\/",
+		"DONATION_LINK": "https:\/\/milaap.org\/fundraisers\/help-delhi-violence-victims-fight-corona",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 15,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Pune, Pimpri-Chinchwad",
+		"TARGET_GROUPS": "Waste pickers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief, Personal Protection Equipment",
+		"ORGANIZATION": "Kashtakari Panchayat Trust",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/kashtakaripanchayat.org\/home\/",
+		"DONATION_LINK": "https:\/\/kashtakaripanchayat.org\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 16,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "Wazirabad",
+		"TARGET_GROUPS": "Slum dwellers, Migrant workers, Daily wagers",
+		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials",
+		"ORGANIZATION": "Sarvahitey",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.sarvahitey.org\/ \nFor their Covid-19 relief efforts: https:\/\/www.instagram.com\/sarvahitey\/",
+		"DONATION_LINK": "https:\/\/www.sarvahitey.org\/donate\nGPay: 8285423423",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 17,
+	"fields": {
+		"STATE_UT": "Telangana, Andhra Pradesh",
+		"SPECIFIC_LOCATION": "Hyderabad",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers, Slum and street children, Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "SAFA Society",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "http:\/\/safaindia.org\/",
+		"DONATION_LINK": "https:\/\/pages.razorpay.com\/Covid19Relief",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 18,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "South Delhi",
+		"TARGET_GROUPS": "Homeless people",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Uday Foundation",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.udayfoundation.org\/",
+		"DONATION_LINK": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 19,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Homeless people",
+		"TYPE_OF_BENEFIT": "Daily essentials, Medical needs, Facility maintenance",
+		"ORGANIZATION": "Urja Trust",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/www.urjatrust.org\/",
+		"DONATION_LINK": "https:\/\/www.ketto.org\/fundraiser\/covid-19-crisis-relief-funds-to-support-homeless-young-women?payment=form&info_4=similar",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "45 homeless young women will be supported, and the funding will be used to continue maintain their shelter, and to provide them with nutrition and physical and mental healthcare."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 20,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N\/A",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Cash relief",
+		"ORGANIZATION": "GiveIndia",
+		"INITIATIVE": "COVID-19 Fundraisers",
+		"WEBSITE": "https:\/\/www.fankind.org\/corona-virus-help-daily-wagers\/13, \n\nhttps:\/\/indiafightscorona.giveindia.org\/",
+		"DONATION_LINK": "Daily Wage: \nhttps:\/\/www.fankind.org\/corona-virus-help-daily-wagers\/13?utm_source=ViralReach&utm_medium=WhatsappAndEmail&utm_campaign=FightAgainstCOVID-19 ,\nhttps:\/\/fundraisers.giveindia.org\/campaigns\/help-daily-wage-earners-feed-their-families-join-mission-support-covid19-hit-families ,\nHygine Kit: \nhttps:\/\/indiafightscorona.giveindia.org\/prevention-kit\/",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "1 month cash relief: 7000\/family for tier 1 city, 5000\/family for tier 2 cities"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 21,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Daily wagers, Homeless people, Sex workers, Transpersons, Orphanages, Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Citizens for Justice and Peace",
+		"INITIATIVE": "N\/A",
+		"WEBSITE": "https:\/\/cjp.org.in\/",
+		"DONATION_LINK": "https:\/\/cjp.org.in\/cjp-against-covid\/#donate",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "No information",
+		"INFO": "N\/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 22,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Chennai, Coimbatore, Madurai",
+		"TARGET_GROUPS": "Students",
+		"TYPE_OF_BENEFIT": "Scholarship",
+		"ORGANIZATION": "Team Everest",
+		"INITIATIVE": "Covid Student Scholarship",
+		"WEBSITE": "https:\/\/fundraisers.giveindia.org\/projects\/covid-student-scholarship",
+		"DONATION_LINK": "https:\/\/fundraisers.giveindia.org\/projects\/covid-student-scholarship",
+		"DONATION_INFO": "N\/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "students who are studying in Govt, Govt Aided, Corporation and Free Schools in Chennai, Coimbatore & Madurai in Tamilnadu."
+	}
+}]

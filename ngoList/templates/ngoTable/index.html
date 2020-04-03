@@ -10,25 +10,33 @@
        class="table-responsive">
 	<thead>
 		<tr>
-			<th data-field="LOCATION" data-filter-control="input" data-sortable="true">LOCATION</th>
-			<th data-field="TARGET_GROUPS" data-filter-control="select" data-sortable="true">TARGET GROUPS</th>
-			<th data-field="ORGANIZATION" data-filter-control="input" data-sortable="true">ORGANIZATION</th>
-      <th data-field="TYPE_OF_BENIFIT" data-filter-control="select" data-sortable="true">TYPE OF BENIFIT</th>
-      <th data-field="WHAT_WILL_BE_PROVIDED" data-filter-control="select" data-sortable="true">WHAT WILL BE PROVIDED</th>
-      <th data-field="DONATION_LINK_INFO" data-filter-control="select" data-sortable="true">DONATION LINK / INFO</th>
-      <th data-field="Exemption" data-filter-control="select" data-sortable="true">EXEMPTION</th>
+			<th data-field="STATE_UT" data-filter-control="input" data-sortable="true">STATE/UT</th>
+			<th data-field="SPECIFIC_LOCATION" data-filter-control="select" data-sortable="true">SPECIFIC LOCATIONS</th>
+			<th data-field="TARGET_GROUPS" data-filter-control="input" data-sortable="true">TARGET BENEFICIARY GROUPS</th>
+            <th data-field="TYPE_OF_BENEFIT" data-filter-control="select" data-sortable="true">TYPE OF SUPPORT TO BENEFICIARY</th>
+            <th data-field="ORGANIZATION" data-filter-control="select" data-sortable="true">ORGANIZATION NAME</th>
+            <th data-field="INITIATIVE" data-filter-control="select" data-sortable="true">INITIATIVE</th>
+            <th data-field="WEBSITE" data-filter-control="select" data-sortable="true">Website/Initiative Link</th>
+            <th data-field="DONATION_LINK" data-filter-control="select" data-sortable="true">Donation Link</th>
+            <th data-field="DONATION_INFO" data-filter-control="select" data-sortable="true">Donation Info</th>
+            <th data-field="FOREIGN_DONATION" data-filter-control="select" data-sortable="true">Foreign donations</th>
+            <th data-field="INFO" data-filter-control="select" data-sortable="true">INFO</th>
 		</tr>
   </thead>
   <tbody>
     {% for ngo in ngo_table_list %}
     <tr>
-      <td>{{ ngo.LOCATION }}</td>
+      <td>{{ ngo.STATE_UT }}</td>
+      <td>{{ ngo.SPECIFIC_LOCATION }}</td>
       <td>{{ ngo.TARGET_GROUPS }}</td>
-      <td>{{ ngo.ORGANIZATION }}</td>
       <td>{{ ngo.TYPE_OF_BENEFIT }}</td>
-      <td>{{ ngo.WHAT_WILL_BE_PROVIDED }}</td>
-      <td>{{ ngo.DONATION_LINKS_INFO }}</td>
-      <td>{{ ngo.Exemptions }}</td>
+      <td>{{ ngo.ORGANIZATION }}</td>
+      <td>{{ ngo.INITIATIVE }}</td>
+      <td>{{ ngo.WEBSITE }}</td>
+        <td>{{ ngo.DONATION_LINK }}</td>
+        <td>{{ ngo.DONATION_INFO }}</td>
+        <td>{{ ngo.FOREIGN_DONATION }}</td>
+        <td>{{ ngo.INFO }}</td>
 		</tr>
     {% endfor %}
   </tbody>
