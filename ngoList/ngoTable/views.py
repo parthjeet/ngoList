@@ -6,6 +6,6 @@ from django.urls import reverse
 from .models import NgoTable
 
 def index(request):
-    ngo_table_list = NgoTable.objects.order_by('id')[:5]
+    ngo_table_list = NgoTable.objects.order_by('id')[:]
     context = {'ngo_table_list': ngo_table_list}
     return render(request, 'ngoTable/index.html', context)
