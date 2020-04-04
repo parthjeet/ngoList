@@ -76,10 +76,26 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #0eb493;
+  padding-top: 5vh;
+  color: #13a588;
   font-size: 28px;
   font-weight: 800;
   text-transform: capitalize;
+}
+
+.number-counters .sec-title h2 {
+  padding-top: 5vh;
+  color: #16cea9;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.number-counters .sec-title h3 {
+  padding-top: 3vh;
+  color: #bee5de;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .sec-sub-title {
@@ -87,11 +103,27 @@ body > section,
 }
 
 .sec-sub-title p {
-	font-weight: 600;
+	font-weight: 350;
 	line-height: 24px;
 	font-size: 18px;
 	color: #5b646e;
 }
+
+.sec-sub-title p b {
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 18px;
+  color: #5b646e;
+  text-transform: uppercase;
+}
+
+.sec-sub-title p u {
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 18px;
+  color: #5b646e;
+}
+
 
 .devider {
   margin-top: 30px;
@@ -174,6 +206,28 @@ body > section,
   padding-bottom: 2vh !important;
 }
 
+.pd-lr-1{
+  padding-left: 1vh !important;
+  padding-right: 1vh !important;
+}
+
+th{
+font-size: 16px;
+text-align: center;
+}
+
+.table-text{
+  text-align: center;
+  font-size: 15px;
+}
+
+#state-info{
+  color: grey;
+}
+
+.list-group-item a{
+  color: #000;
+}
 
 
 
@@ -221,11 +275,21 @@ body > section,
 ==========================================*/
 
 #slider {
-	padding: 0;
+  padding: 0;
+  height: 70vh !important;
 }
+#carousel-example-generic {
+  padding: 0;
+  height: 70vh !important;
+}
+.carousel-inner{
+  height: 70vh !important;
+}
+
 
 #slider .carousel-inner .item {
   background-size: cover;
+  
 }
 
 .carousel-caption {
@@ -243,7 +307,7 @@ body > section,
 
 .carousel-caption h3 {
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 600;
   margin: 6px 0 20px;
 }
 
@@ -538,7 +602,7 @@ top: -8px;
 ==========================================*/
 
 #facts {
-	background-image: url("../img/parallax/city.jpg");
+	background-image: url("../img/banner.jpg");
 	background-color: rgba(6,32,51,.8);
 	background-attachment: fixed !important;
 	background-position: center center;
@@ -557,7 +621,7 @@ top: -8px;
 }
 
 .parallax-overlay {
-	background-color: rgba(6,32,51,.8);
+	background-color: rgba(6, 32, 51, 0.486);
 	padding: 70px 0;
 }
 
@@ -743,6 +807,14 @@ label.error {
 
 .footer-single p i {
   margin: 0 10px;
+}
+
+.footer-team p b{
+  font-weight: 700;
+}
+
+.footer-team p u{
+  font-weight: 600;
 }
 
 .credit a {

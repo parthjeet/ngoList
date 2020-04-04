@@ -114,11 +114,19 @@ background-position: center top !important;
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
+@media only screen and (max-width: 550px) {
+
+}
+
 
 @media only screen and (max-width: 767px) {
 
 .sec-sub-title p {
   font-size: 14px;
+}
+
+.slider-image{
+  background-image: url(/static/img/banner_small.jpg) !important;
 }
 
 /* slider */
