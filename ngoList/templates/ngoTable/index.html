@@ -1,39 +1,244 @@
 {% extends 'base.html' %} 
-{% block content %} 
-  <h1 class="text-center mb-3">NGO Table</h1>
-  {% if ngo_table_list %}
-  <table id="table" 
-			 data-toggle="table"
-			 data-filter-control="true" 
-			 data-click-to-select="true"
-			 data-toolbar="#toolbar"
-       class="table-responsive">
-	<thead>
-		<tr>
-			<th data-field="LOCATION" data-filter-control="input" data-sortable="true">LOCATION</th>
-			<th data-field="TARGET_GROUPS" data-filter-control="select" data-sortable="true">TARGET GROUPS</th>
-			<th data-field="ORGANIZATION" data-filter-control="input" data-sortable="true">ORGANIZATION</th>
-      <th data-field="TYPE_OF_BENIFIT" data-filter-control="select" data-sortable="true">TYPE OF BENIFIT</th>
-      <th data-field="WHAT_WILL_BE_PROVIDED" data-filter-control="select" data-sortable="true">WHAT WILL BE PROVIDED</th>
-      <th data-field="DONATION_LINK_INFO" data-filter-control="select" data-sortable="true">DONATION LINK / INFO</th>
-      <th data-field="Exemption" data-filter-control="select" data-sortable="true">EXEMPTION</th>
-		</tr>
-  </thead>
-  <tbody>
-    {% for ngo in ngo_table_list %}
-    <tr>
-      <td>{{ ngo.LOCATION }}</td>
-      <td>{{ ngo.TARGET_GROUPS }}</td>
-      <td>{{ ngo.ORGANIZATION }}</td>
-      <td>{{ ngo.TYPE_OF_BENEFIT }}</td>
-      <td>{{ ngo.WHAT_WILL_BE_PROVIDED }}</td>
-      <td>{{ ngo.DONATION_LINKS_INFO }}</td>
-      <td>{{ ngo.Exemptions }}</td>
-		</tr>
-    {% endfor %}
-  </tbody>
-  </table>
-  {% else %}
-    <p>No polls available</p>
-  {% endif %}
+{% block body %} 
+
+		<!-- preloader -->
+		<div id="preloader">
+			<img src="/static/img/preloader.gif" alt="Preloader">
+		</div>
+		<!-- end preloader -->
+
+        <!-- 
+        Fixed Navigation
+        ==================================== -->
+        {% include 'partials/_navbar.html' %}
+        <!--
+        End Fixed Navigation
+		==================================== -->
+		
+		<!--
+        Home Slider
+        ==================================== -->
+		{% include 'partials/_homeslider.html' %}
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+		
+        <!--
+        NGO Table
+        ==================================== -->
+		{% load splitter %}
+		<section id="ngotable" class="">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="sec-title text-center mb50 bounceInDown animated">
+						<h2>List of NGOs you can donate to.</h2>
+					</div>
+
+					<!-- service item -->
+					<div class="col-12 fadeInLeft pd-lr-1">
+						<div class="w-100 tbody-scroll table-responsive">
+								{% if ngo_table_list %}
+								<table id="table" 
+											data-toggle="table"
+											data-filter-control="true" 
+											data-click-to-select="true"
+											data-toolbar="#toolbar"
+									class="table">
+									<thead class="thead-dark">
+										<tr>
+											<th data-field="STATE_UT" data-filter-control="select">STATE/UT
+												<a id="state-info" href=# data-toggle="popover" data-content="Select 'nation-wide' for NGOs working in more than one State/UT." data-trigger="hover" data-placement="right" onclick="return false;">
+													<i class="fa fa-info-circle"></i>
+												</a>
+											</th>
+											<th data-field="ORGANIZATION" data-filter-control="input">ORGANIZATION NAME</th>
+											<th data-field="TARGET_GROUPS" data-filter-control="input">TARGET BENEFICIARY GROUPS
+												<a id="state-info" href=# data-toggle="popover" data-content="
+																						<div>{% for ngo in ngo_table_list %}
+																							{% for x in ngo.TARGET_GROUPS|target_groups:',' %}
+																							{% endfor %}
+																						{% endfor %}
+																						{{ var|ans }}
+																					</div>
+																												" data-html="true" data-trigger="focus" data-placement="bottom" onclick="return false;">
+													<i class="fa fa-info-circle"></i>
+												</a>
+											</th>
+											<th data-field="FOREIGN_DONATION" data-filter-control="select">FOREIGN DONATION ACCEPTED?</th>
+											<th class="text-center pb-2">FURTHER INFORMATION</th>
+										</tr>
+								</thead>
+								<tbody>
+									{% for ngo in ngo_table_list %}
+									<tr>
+									<td class="table-text">{{ ngo.STATE_UT }}</td>
+									<td class="table-text">{{ ngo.ORGANIZATION }}</td>
+									<td class="table-text">{{ ngo.TARGET_GROUPS }}</td>
+									<td class="table-text">{{ ngo.FOREIGN_DONATION }}</td>
+									<td>
+										<button type="button" class="btn btn-info" data-toggle="modal" data-target="#{{ngo.pk}}">More Info >></button>
+									  </td>
+									</tr>
+									    <!-- Modal -->
+										<div id="{{ngo.pk}}" class="modal fade" role="dialog">
+											<div class="modal-dialog modal-lg">
+											<!-- Modal content-->
+											<div class="modal-content card">
+												<div class="modal-header modal-header-info">
+												<button type="button" class="close" data-dismiss="modal">×</button>
+												<h2 class="modal-title card-header text-center"><b>Organization Name: </b> {{ ngo.ORGANIZATION }}</h2>
+												</div>
+												<div class="modal-body">
+															<div class="card-block">
+																<ul class="list-group list-group-flush">
+																	<li class="list-group-item">
+																		<b>STATE:</b> {{ ngo.STATE_UT }}
+																	</li>
+																	<li class="list-group-item">
+																		<b>Specific Location: </b>{{ ngo.SPECIFIC_LOCATION }} </li>
+																	<li class="list-group-item">
+																		<b>Target Beneficiary Groups: </b>{{ ngo.TARGET_GROUPS }} </li>
+																	<li class="list-group-item">
+																		<b>Type(s) of Support to Beneficiary: </b>{{ ngo.TYPE_OF_BENEFIT }} </li>
+																	<li class="list-group-item">
+																		<b>Initiative: </b>{{ ngo.INITIATIVE }}</li>
+																	<li class="list-group-item">
+																		<b>Website: </b>{% for key, val in ngo.WEBSITE|split:"," %}
+																		{% if val == "no" %}
+																			{{ key }} 
+																		{% else %}
+																			<a href= "{{key}}"> {{key}}</a>
+																		{% endif %}
+																		{% endfor %}
+																	</li>
+																	<li class="list-group-item">
+																		<b>Donation Link: </b>{% for key, val in ngo.DONATION_LINK|split:"," %}
+																		{% if val == "no" %}
+																			{{ key }}
+																		{% else %}
+																			<a href= "{{key}}"> {{key}}</a>
+																		{% endif %}
+																		{% endfor %}
+																	</li>
+																	<li class="list-group-item">
+																		<b>Donation Information: </b>{{ ngo.DONATION_INFO }}</li>
+																	<li class="list-group-item">
+																		<b>Foreign Donation Accepted? </b>{{ ngo.FOREIGN_DONATION }}</li>
+																	<li class="list-group-item">
+																		<b>NGO Info: </b>{{ ngo.INFO }}</li>
+															</ul>
+												</div>
+											</div>
+										
+											</div>
+										</div>
+									{% endfor %}
+								</tbody>
+								</table>
+								{% else %}
+									<p>No polls available</p>
+								{% endif %}
+						</div>
+					</div>
+					<!-- end service item -->
+					
+
+						
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End NGO Table
+        ==================================== -->
+	
+		<!--
+        About Us
+        ==================================== -->		
+		{% include 'partials/_aboutus.html' %}
+        <!--
+        End Contact Us
+		==================================== -->
+
+		<!--
+        Footer Start
+		==================================== -->
+		{% include 'partials/_footer.html' %}	
+		<!--
+        Footer End
+		==================================== -->	
+
+		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+		<script src="/static/js/jquery-1.11.1.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="/static/js/jquery.singlePageNav.min.js"></script>
+		<!-- Twitter Bootstrap -->
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/bootstrap-table.min.js"></script>
+		<script src="/static/js/bootstrap-table-filter-control.min.js"></script>
+		<script src="/static/js/jquery.dataTables.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="/static/js/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="/static/js/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="/static/js/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="/static/js/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="/static/js/jquery.appear.js"></script>
+		<!-- jquery easing -->
+        <script src="/static/js/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="/static/js/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script> 
+		<!-- Custom Functions -->
+		<script src="/static/js/custom.js"></script>
+		
+		<script>
+			var $table = $('#table');
+		$(function () {
+			$('#toolbar').find('select').change(function () {
+				$table.bootstrapTable('refreshOptions', {
+					exportDataType: $(this).val()
+				});
+			});
+		})
+	
+			var trBoldBlue = $("table");
+	
+		$(trBoldBlue).on("click", "tr", function (){
+				$(this).toggleClass("bold-blue");
+		});
+		</script>
+		<script>
+			$(document).ready(function() {
+    $('#example').dataTable( {
+        "scrollY":        "20vh",
+        "scrollCollapse": true,
+        "jQueryUI":       true
+    } );
+} );
+		</script>
+
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover();   
+	});
+	</script>
+
 {% endblock %}
