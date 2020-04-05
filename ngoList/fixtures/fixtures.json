@@ -8,27 +8,27 @@
 		"TYPE_OF_BENEFIT": "Cooked food",
 		"ORGANIZATION": "Khushiyaan Foundation",
 		"INITIATIVE": "Roti Ghar",
-		"WEBSITE": "http:\/\/www.khushiyaanfoundation.org\/index.php\nMore info on their Covid-19 efforts: https:\/\/www.thebetterindia.com\/221621\/coronavirus-india-covid-19-initiative-poor-workers-mumbai-bengaluru-delhi-chennai-jov30\/",
-		"DONATION_LINK": "N\/A",
+		"WEBSITE": "http://www.khushiyaanfoundation.org/index.php More info on their Covid-19 efforts: https://www.thebetterindia.com/221621/coronavirus-india-covid-19-initiative-poor-workers-mumbai-bengaluru-delhi-chennai-jov30/",
+		"DONATION_LINK": "http://www.khushiyaanfoundation.org/donation.php",
 		"DONATION_INFO": "9769181218 via Paytm or Google Pay",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 2,
 	"fields": {
 		"STATE_UT": "Nation-wide",
-		"SPECIFIC_LOCATION": "N\/A",
+		"SPECIFIC_LOCATION": "N/A",
 		"TARGET_GROUPS": "Daily wagers",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "Goonj",
 		"INITIATIVE": "Rahat Covid-19",
-		"WEBSITE": "https:\/\/goonj.org\/support-covid-19-affected",
-		"DONATION_LINK": "Please visit: https:\/\/goonj.org\/support-covid-19-affected",
-		"DONATION_INFO": "N\/A",
+		"WEBSITE": "https://goonj.org/support-covid-19-affected",
+		"DONATION_LINK": "https://goonj.org/support-covid-19-affected",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "Aim to reach about 2 lakh families. Also aim to deal with health issues, debt and education in the aftermath of the pandemic"
+		"INFO": "Aim to reach about 2 lakh families. Also aim to deal with health issues, debt and education in the aftermath of the pandemic. 50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -39,28 +39,28 @@
 		"TARGET_GROUPS": "Daily wagers, Homeless people, Health workers",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "YUVA (Youth for Unity and Voluntary Action)",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.instagram.com\/officialyuva\/",
-		"DONATION_LINK": "https:\/\/www.instagram.com\/p\/B-GmimZKDpc\/",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.instagram.com/officialyuva/",
+		"DONATION_LINK": "https://www.instagram.com/p/B-GmimZKDpc/",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "N/A"
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 4,
 	"fields": {
 		"STATE_UT": "Delhi",
-		"SPECIFIC_LOCATION": "Delhi",
+		"SPECIFIC_LOCATION": "South Delhi",
 		"TARGET_GROUPS": "Homeless people",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "Uday Foundation",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
-		"DONATION_LINK": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.udayfoundation.org/coronavirus-disease-covid-19/",
+		"DONATION_LINK": "https://www.udayfoundation.org/coronavirus-disease-covid-19/",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "No",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -71,12 +71,12 @@
 		"TARGET_GROUPS": "Slum and street children",
 		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
 		"ORGANIZATION": "Voice of Slum",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.voiceofslum.org\/",
-		"DONATION_LINK": "https:\/\/donatekart.com\/VOS\/Help-children",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.voiceofslum.org/",
+		"DONATION_LINK": "https://donatekart.com/VOS/Help-children",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -87,12 +87,12 @@
 		"TARGET_GROUPS": "Waste pickers",
 		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
 		"ORGANIZATION": "Waste Warriors",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/wastewarriors.org\/message-on-covid-19-and-our-relief-fund\/",
-		"DONATION_LINK": "https:\/\/fundraisers.giveindia.org\/projects\/waste-workers-improving-lives-and-working-conditions",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://wastewarriors.org/message-on-covid-19-and-our-relief-fund/",
+		"DONATION_LINK": "https://fundraisers.giveindia.org/projects/waste-workers-improving-lives-and-working-conditions",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -104,11 +104,11 @@
 		"TYPE_OF_BENEFIT": "Cooked food",
 		"ORGANIZATION": "Ya_all",
 		"INITIATIVE": "Khudol Initiative",
-		"WEBSITE": "https:\/\/www.yaall.org\/",
-		"DONATION_LINK": "https:\/\/www.yaall.org\/donate-page",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"WEBSITE": "https://www.yaall.org/",
+		"DONATION_LINK": "https://www.yaall.org/donate-page",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -119,44 +119,44 @@
 		"TARGET_GROUPS": "Urban poor",
 		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief, Personal Protection Equipment, Awareness generation",
 		"ORGANIZATION": "Yellow Streets + Aumtara Foundation",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.facebook.com\/yellowstreets\/photos\/a.1468387356634953\/1745180888955597\/?type=3&theater",
-		"DONATION_LINK": "https:\/\/www.facebook.com\/yellowstreets\/photos\/a.1468387356634953\/1745180888955597\/?type=3&theater",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "Yellow Streets builds though-process for sustainability and EQ through rugby"
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.facebook.com/yellowstreets/photos/a.1468387356634953/1745180888955597/?type=3&theater",
+		"DONATION_LINK": "https://www.facebook.com/yellowstreets/photos/a.1468387356634953/1745180888955597/?type=3&theater",
+		"DONATION_INFO": "Name - Gully Ruggers Foundation  Account Number - 50200044280652  IFSC - HDFC0000089 Bank - HDFC Branch - New Friends Colony, New Delhi",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "Yellow Streets builds thought-process for sustainability and EQ through rugby"
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 9,
 	"fields": {
 		"STATE_UT": "Nation-wide",
-		"SPECIFIC_LOCATION": "N\/A",
+		"SPECIFIC_LOCATION": "N/A",
 		"TARGET_GROUPS": "Daily wagers",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "Zomato Feeding India",
 		"INITIATIVE": "Feed the Daily Wager",
-		"WEBSITE": "https:\/\/www.feedingindia.org\/donate",
-		"DONATION_LINK": "https:\/\/www.feedingindia.org\/donate",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"WEBSITE": "https://www.feedingindia.org/donate",
+		"DONATION_LINK": "https://www.feedingindia.org/donate",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 10,
 	"fields": {
 		"STATE_UT": "Nation-wide",
-		"SPECIFIC_LOCATION": "N\/A",
+		"SPECIFIC_LOCATION": "N/A",
 		"TARGET_GROUPS": "Daily wagers, Old and infirm",
 		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Awareness generation",
 		"ORGANIZATION": "Child Help Foundation",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/childhelpfoundation.in\/donate-for-coronavirus\/",
-		"DONATION_LINK": "https:\/\/covid19.ketto.org\/fundraiser\/coronavirus",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://childhelpfoundation.in/donate-for-coronavirus/",
+		"DONATION_LINK": "https://covid19.ketto.org/fundraiser/coronavirus",
+		"DONATION_INFO": "QR Code to donate by UPI/Paytm available in Ketto link.",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -168,25 +168,25 @@
 		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Awareness generation, Medical needs",
 		"ORGANIZATION": "Keystone Foundation",
 		"INITIATIVE": "Covid-19 Relief Fund",
-		"WEBSITE": "https:\/\/keystone-foundation.org\/",
-		"DONATION_LINK": "https:\/\/keystone-foundation.org\/support-us\/",
-		"DONATION_INFO": "N\/A",
+		"WEBSITE": "https://keystone-foundation.org/",
+		"DONATION_LINK": "https://keystone-foundation.org/support-us/",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 12,
 	"fields": {
 		"STATE_UT": "Bihar",
-		"SPECIFIC_LOCATION": "N\/A",
+		"SPECIFIC_LOCATION": "N/A",
 		"TARGET_GROUPS": "Covid-19 patients",
 		"TYPE_OF_BENEFIT": "Medical needs",
 		"ORGANIZATION": "Doctors For You",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "http:\/\/doctorsforyou.org\/",
-		"DONATION_LINK": "https:\/\/milaap.org\/fundraisers\/support-doctors-for-you?community=10177",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://doctorsforyou.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-doctors-for-you?community=10177  http://doctorsforyou.org/international-donation.php",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
 		"INFO": "Funding to be used to set up a 20-bedded quarantine facility for management of suspected and serious Covid-19 cases."
 	}
@@ -199,10 +199,10 @@
 		"TARGET_GROUPS": "Animals care",
 		"TYPE_OF_BENEFIT": "Facility maintenance",
 		"ORGANIZATION": "The Madras Crocodile Bank Trust",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "http:\/\/madrascrocodilebank.org\/web\/",
-		"DONATION_LINK": "http:\/\/madrascrocodilebank.org\/web\/make_a_donation",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://madrascrocodilebank.org/web/",
+		"DONATION_LINK": "http://madrascrocodilebank.org/web/make_a_donation",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
 		"INFO": "Funding to be used to maintain the Crocodile bank."
 	}
@@ -212,15 +212,15 @@
 	"fields": {
 		"STATE_UT": "Delhi",
 		"SPECIFIC_LOCATION": "North-East Delhi",
-		"TARGET_GROUPS": "Homeless people",
+		"TARGET_GROUPS": "Homeless people, Violence victims",
 		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief",
 		"ORGANIZATION": "Foundation for Poverty Alleviation",
 		"INITIATIVE": "UMEED",
-		"WEBSITE": "http:\/\/www.fpa360.org\/",
-		"DONATION_LINK": "https:\/\/milaap.org\/fundraisers\/help-delhi-violence-victims-fight-corona",
-		"DONATION_INFO": "N\/A",
+		"WEBSITE": "http://www.fpa360.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/help-delhi-violence-victims-fight-corona",
+		"DONATION_INFO": "UPI for donation: rzpy.givetomlpchiragm0002@hdfcbank",
 		"FOREIGN_DONATION": "No",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -231,12 +231,12 @@
 		"TARGET_GROUPS": "Waste pickers",
 		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief, Personal Protection Equipment",
 		"ORGANIZATION": "Kashtakari Panchayat Trust",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/kashtakaripanchayat.org\/home\/",
-		"DONATION_LINK": "https:\/\/kashtakaripanchayat.org\/",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://kashtakaripanchayat.org/home/",
+		"DONATION_LINK": "https://kashtakaripanchayat.org/",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
@@ -247,96 +247,80 @@
 		"TARGET_GROUPS": "Slum dwellers, Migrant workers, Daily wagers",
 		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials",
 		"ORGANIZATION": "Sarvahitey",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.sarvahitey.org\/ \nFor their Covid-19 relief efforts: https:\/\/www.instagram.com\/sarvahitey\/",
-		"DONATION_LINK": "https:\/\/www.sarvahitey.org\/donate\nGPay: 8285423423",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.sarvahitey.org/  For their Covid-19 relief efforts: https://www.instagram.com/sarvahitey/",
+		"DONATION_LINK": "https://www.sarvahitey.org/donate",
+		"DONATION_INFO": "GPay: 8285423423",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 17,
 	"fields": {
-		"STATE_UT": "Telangana, Andhra Pradesh",
-		"SPECIFIC_LOCATION": "Hyderabad",
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "Hyderabad, Telangana, Andhra Pradesh, ",
 		"TARGET_GROUPS": "Daily wagers, Migrant workers, Slum and street children, Urban poor",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "SAFA Society",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "http:\/\/safaindia.org\/",
-		"DONATION_LINK": "https:\/\/pages.razorpay.com\/Covid19Relief",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://safaindia.org/",
+		"DONATION_LINK": "https://pages.razorpay.com/Covid19Relief",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "N\/A"
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
 	"pk": 18,
-	"fields": {
-		"STATE_UT": "Delhi",
-		"SPECIFIC_LOCATION": "South Delhi",
-		"TARGET_GROUPS": "Homeless people",
-		"TYPE_OF_BENEFIT": "Daily essentials",
-		"ORGANIZATION": "Uday Foundation",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.udayfoundation.org\/",
-		"DONATION_LINK": "https:\/\/www.udayfoundation.org\/coronavirus-disease-covid-19\/",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No",
-		"INFO": "N\/A"
-	}
-}, {
-	"model": "ngoTable.ngotable",
-	"pk": 19,
 	"fields": {
 		"STATE_UT": "Maharashtra",
 		"SPECIFIC_LOCATION": "Mumbai",
 		"TARGET_GROUPS": "Homeless people",
 		"TYPE_OF_BENEFIT": "Daily essentials, Medical needs, Facility maintenance",
 		"ORGANIZATION": "Urja Trust",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/www.urjatrust.org\/",
-		"DONATION_LINK": "https:\/\/www.ketto.org\/fundraiser\/covid-19-crisis-relief-funds-to-support-homeless-young-women?payment=form&info_4=similar",
-		"DONATION_INFO": "N\/A",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.urjatrust.org/",
+		"DONATION_LINK": "https://www.ketto.org/fundraiser/covid-19-crisis-relief-funds-to-support-homeless-young-women?payment=form&info_4=similar",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
 		"INFO": "45 homeless young women will be supported, and the funding will be used to continue maintain their shelter, and to provide them with nutrition and physical and mental healthcare."
 	}
 }, {
 	"model": "ngoTable.ngotable",
-	"pk": 20,
+	"pk": 19,
 	"fields": {
 		"STATE_UT": "Nation-wide",
-		"SPECIFIC_LOCATION": "N\/A",
+		"SPECIFIC_LOCATION": "N/A",
 		"TARGET_GROUPS": "Daily wagers",
 		"TYPE_OF_BENEFIT": "Cash relief",
 		"ORGANIZATION": "GiveIndia",
 		"INITIATIVE": "COVID-19 Fundraisers",
-		"WEBSITE": "https:\/\/www.fankind.org\/corona-virus-help-daily-wagers\/13, \n\nhttps:\/\/indiafightscorona.giveindia.org\/",
-		"DONATION_LINK": "Daily Wage: \nhttps:\/\/www.fankind.org\/corona-virus-help-daily-wagers\/13?utm_source=ViralReach&utm_medium=WhatsappAndEmail&utm_campaign=FightAgainstCOVID-19 ,\nhttps:\/\/fundraisers.giveindia.org\/campaigns\/help-daily-wage-earners-feed-their-families-join-mission-support-covid19-hit-families ,\nHygine Kit: \nhttps:\/\/indiafightscorona.giveindia.org\/prevention-kit\/",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "1 month cash relief: 7000\/family for tier 1 city, 5000\/family for tier 2 cities"
+		"WEBSITE": "https://www.fankind.org/corona-virus-help-daily-wagers/13  https://indiafightscorona.giveindia.org/",
+		"DONATION_LINK": "Daily Wage:  https://www.fankind.org/corona-virus-help-daily-wagers/13?utm_source=ViralReach&utm_medium=WhatsappAndEmail&utm_campaign=FightAgainstCOVID-19  https://fundraisers.giveindia.org/campaigns/help-daily-wage-earners-feed-their-families-join-mission-support-covid19-hit-families  Hygine Kit: https://indiafightscorona.giveindia.org/prevention-kit/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "1 month cash relief: 7000/family for tier 1 city, 5000/family for tier 2 cities. 50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
-	"pk": 21,
+	"pk": 20,
 	"fields": {
 		"STATE_UT": "Maharashtra",
 		"SPECIFIC_LOCATION": "Mumbai",
 		"TARGET_GROUPS": "Daily wagers, Homeless people, Sex workers, Transpersons, Orphanages, Urban poor",
 		"TYPE_OF_BENEFIT": "Daily essentials",
 		"ORGANIZATION": "Citizens for Justice and Peace",
-		"INITIATIVE": "N\/A",
-		"WEBSITE": "https:\/\/cjp.org.in\/",
-		"DONATION_LINK": "https:\/\/cjp.org.in\/cjp-against-covid\/#donate",
-		"DONATION_INFO": "N\/A",
-		"FOREIGN_DONATION": "No information",
-		"INFO": "N\/A"
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://cjp.org.in/",
+		"DONATION_LINK": "https://cjp.org.in/cjp-against-covid/#donate",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }, {
 	"model": "ngoTable.ngotable",
-	"pk": 22,
+	"pk": 21,
 	"fields": {
 		"STATE_UT": "Tamil Nadu",
 		"SPECIFIC_LOCATION": "Chennai, Coimbatore, Madurai",
@@ -344,10 +328,730 @@
 		"TYPE_OF_BENEFIT": "Scholarship",
 		"ORGANIZATION": "Team Everest",
 		"INITIATIVE": "Covid Student Scholarship",
-		"WEBSITE": "https:\/\/fundraisers.giveindia.org\/projects\/covid-student-scholarship",
-		"DONATION_LINK": "https:\/\/fundraisers.giveindia.org\/projects\/covid-student-scholarship",
-		"DONATION_INFO": "N\/A",
+		"WEBSITE": "https://www.teameverest.ngo/",
+		"DONATION_LINK": "https://fundraisers.giveindia.org/projects/covid-student-scholarship",
+		"DONATION_INFO": "N/A",
 		"FOREIGN_DONATION": "Yes",
-		"INFO": "students who are studying in Govt, Govt Aided, Corporation and Free Schools in Chennai, Coimbatore & Madurai in Tamilnadu."
+		"INFO": "Students who are studying in Govt, Govt Aided, Corporation and Free Schools in Chennai, Coimbatore & Madurai in Tamilnadu. 50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 22,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru, Mysuru, Tumakuru, Davanagere, Hubli, Dharwad and Rajahmundry",
+		"TARGET_GROUPS": "Sanitation staff/Safai karamchaari, Waste pickers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Hasiru Dala",
+		"INITIATIVE": "Wastepickers and COVID-19",
+		"WEBSITE": "http://hasirudala.in/news/wastepickers-and-covid19/",
+		"DONATION_LINK": "http://hasirudala.in/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 23,
+	"fields": {
+		"STATE_UT": "Punjab",
+		"SPECIFIC_LOCATION": "Chandigarh, Mohali, Panchkula",
+		"TARGET_GROUPS": "Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "I Am Still Human",
+		"INITIATIVE": "Fight Coronavirus",
+		"WEBSITE": "https://iamstillhuman.org/",
+		"DONATION_LINK": "https://iamstillhuman.org/fightcoronavirus/",
+		"DONATION_INFO": "Paytm QR Code given in donation link.",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "For tax exemption can contact +91 84279 12765"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 24,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Trichy, Namakkal, Karur, Chennai, Tiruvallur, Kancheepuram",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
+		"ORGANIZATION": "Society for Poor People Development",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.sppdonline.org/index.php",
+		"DONATION_LINK": "https://www.sppdonline.org/support-covid-19.php",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 25,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Old and infirm",
+		"TYPE_OF_BENEFIT": "Awareness generation, Medical needs",
+		"ORGANIZATION": "Helpage India",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.helpageindia.org/",
+		"DONATION_LINK": "https://www.helpageindia.org/covid-19/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 26,
+	"fields": {
+		"STATE_UT": "Gujarat",
+		"SPECIFIC_LOCATION": "Ahmedabad",
+		"TARGET_GROUPS": "Daily wagers, Old and infirm",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment, Medical needs",
+		"ORGANIZATION": "Elder Care Trust",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.eldercaretrust.org/",
+		"DONATION_LINK": "https://www.eldercaretrust.org/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 27,
+	"fields": {
+		"STATE_UT": "Assam",
+		"SPECIFIC_LOCATION": "Bongaigaon, Cachar, Chirang, Dhemaji, Goalpara, Golaghat, Karbi Anglong, Kokrajhar, Lakhimpur",
+		"TARGET_GROUPS": "Homeless people",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Indo Global Social Service Society",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://igsss.org/",
+		"DONATION_LINK": "https://www.impactguru.com/fundraiser/help-homeless-living-on-street-and-in-shelter-homes?utm_source=android&utm_medium=share_whatsapp&utm_campaign=help-homeless-living-on-street-and-in-shelter-homes&iglsmp=1",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 28,
+	"fields": {
+		"STATE_UT": "Bihar",
+		"SPECIFIC_LOCATION": "Samastipur",
+		"TARGET_GROUPS": "Rural poor",
+		"TYPE_OF_BENEFIT": "Cooked food, Medical needs",
+		"ORGANIZATION": "Innovators in Health",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://www.innovatorsinhealth.org/",
+		"DONATION_LINK": "https://donatenow.networkforgood.org/1429385",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 29,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "Chennai, Gadag, Chikkaballapura, Bengaluru Rural, Amravati, Nagpur, Nashik, Pune, Latur, Nagapattinam, Kolkata",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "International Association for Human Values",
+		"INITIATIVE": "Stand with Daily Wage Earners",
+		"WEBSITE": "https://www.iahv.org/in-en/",
+		"DONATION_LINK": "iahv.org/in-en/donate/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 30,
+	"fields": {
+		"STATE_UT": "Uttar Pradesh",
+		"SPECIFIC_LOCATION": "Ghaziabad, Noida",
+		"TARGET_GROUPS": "Slum dwellers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Karma Our Destiny Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://www.karmaourdestiny.com/index.html",
+		"DONATION_LINK": "https://pages.razorpay.com/pl_EOu9ctRQT6IV3J/view",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 31,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Waste pickers",
+		"TYPE_OF_BENEFIT": "Safety kity",
+		"ORGANIZATION": "Paigam",
+		"INITIATIVE": "Safety kit distribution",
+		"WEBSITE": "http://paigam.network/",
+		"DONATION_LINK": "https://pages.razorpay.com/pl_ EW6B2AlIPZz41X/view",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 32,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru",
+		"TARGET_GROUPS": "Urban poor, Daily wagers",
+		"TYPE_OF_BENEFIT": "Relief kit",
+		"ORGANIZATION": "Parinaam Foundation",
+		"INITIATIVE": "Online fund Raiser",
+		"WEBSITE": "http://www.parinaam.org/index.html",
+		"DONATION_LINK": "https://covid19.ketto.org/fundraiser/direct-cash-transfer-to-our-daily-wagers-family",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 33,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "Delhi, Mumbai",
+		"TARGET_GROUPS": "Daily wagers, Slum dwellers",
+		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Awareness generation",
+		"ORGANIZATION": "Pranyas Development Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://www.pranyas.org",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-rahul-sharma-2?community=10177",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 34,
+	"fields": {
+		"STATE_UT": "Bihar",
+		"SPECIFIC_LOCATION": "Kishanganj",
+		"TARGET_GROUPS": "Daily wagers, Rural poor",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Project Potential Trust",
+		"INITIATIVE": "Project Potential: COVID-19 Relief (#PPCOVID19Relief)",
+		"WEBSITE": "http://www.projectpotential.org/",
+		"DONATION_LINK": "https://fundraisers.giveindia.org/projects/384",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 35,
+	"fields": {
+		"STATE_UT": "Uttar Pradesh",
+		"SPECIFIC_LOCATION": "Aligarh",
+		"TARGET_GROUPS": "Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
+		"ORGANIZATION": "Rag Dreams Weavers Association",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://ragdreamweavers.home.blog/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-street-connected-families",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 36,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "East Delhi, South Delhi, Gurgaon",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment",
+		"ORGANIZATION": "Responsenet Community Disaster Resource Network (CDRN)",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.responsenet.org/corporate-disaster-resource-network/",
+		"DONATION_LINK": "https://www.fueladream.com/home/campaign/21246",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 37,
+	"fields": {
+		"STATE_UT": "Uttar Pradesh",
+		"SPECIFIC_LOCATION": "Lucknow",
+		"TARGET_GROUPS": "Students",
+		"TYPE_OF_BENEFIT": "Scholarship",
+		"ORGANIZATION": "Rightwalk Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://www.rightwalk.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/rightwalk-foundation?utm_source=shorturl",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "50% tax exemption on donation available through 80G. Leave your email to receive 80G receipts."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 38,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "N/A",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "Round Table India",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.roundtableindia.org/",
+		"DONATION_LINK": "https://covid19.ketto.org/fundraiser/rtiforcovid19relief",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 39,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru Rural, Hasan, Bidar, Yadgir, Ramnagara, Haveri, Gadag, Raichur, Koppala, Kolar, Chikmagalur and Uttar Kannada",
+		"TARGET_GROUPS": "Sex workers, Transpersons",
+		"TYPE_OF_BENEFIT": "Cash relief, Daily essentials",
+		"ORGANIZATION": "Sangama",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://sangama.org/index.html  https://www.ourdemocracy.in/Campaign/supportsangama",
+		"DONATION_LINK": "https://www.ourdemocracy.in/Campaign/supportsangama",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G. Certificates sent through Email. Partners are Karnataka Sex Workers Union (KSWU) and Uttar Karnataka Mahila Ookutta (UKMO)."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 40,
+	"fields": {
+		"STATE_UT": "Gujarat",
+		"SPECIFIC_LOCATION": "Dharampur",
+		"TARGET_GROUPS": "Daily wagers, Medical professional and health workers, Servicemen, Animals care",
+		"TYPE_OF_BENEFIT": "Cooked food, Daily essentials, Personal Protection Equipment, Medical needs",
+		"ORGANIZATION": "Shrimad Rajchandra Love and Care",
+		"INITIATIVE": "Shrimad Rajchandra Mission Dharampur",
+		"WEBSITE": "https://www.srloveandcare.org/coronavirus-relief",
+		"DONATION_LINK": "https://www.srloveandcare.org/app/Contributions2/Contribute",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 41,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Chennai",
+		"TARGET_GROUPS": "Marginalised artists",
+		"TYPE_OF_BENEFIT": "N/A",
+		"ORGANIZATION": "Sumanasa Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://sumanasafoundation.org/",
+		"DONATION_LINK": "http://sumanasafoundation.org/supporting-marginalized-artists-donate/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G.  Contact: sumanasafoundation@gmail.com  Number: Hariharan Sankaran 044-42108575"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 42,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Pune",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Hope for the Children Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://hopeforthechildrenfdn.org/  https://www.facebook.com/hfcfindia/",
+		"DONATION_LINK": "https://hopeforthechildrenfdn.org/donate-food",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 43,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Urban poor",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "Mumbai Roti Bank",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://rotibankfoundation.org/",
+		"DONATION_LINK": "https://paytm.com/helpinghand/roti-foundation-mumbai",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 44,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "MCKS Food for the Hungry Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://mcksfood.com/  https://www.facebook.com/mcksfood/",
+		"DONATION_LINK": "http://mcksfood.com/donate",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 45,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru",
+		"TARGET_GROUPS": "Migrant workers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Gubbachi Learning Community",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://gubbachi.org.in/  https://www.facebook.com/gubbachilearningcommunity/",
+		"DONATION_LINK": "https://gubbachi.org.in/donate.html",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 46,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bangaluru (Indiranagar, Ulssor, Rajajinagar)",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Rotary Bangalore Indiranagar Trust",
+		"INITIATIVE": "Covid-19 Fund Raiser",
+		"WEBSITE": "https://www.fueladream.com/home/campaign/21255",
+		"DONATION_LINK": "https://www.fueladream.com/home/campaign/21255",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 47,
+	"fields": {
+		"STATE_UT": "Uttarakhand",
+		"SPECIFIC_LOCATION": "Dehradun",
+		"TARGET_GROUPS": "Slum and street children",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Aasraa Trust",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://aasraatrust.org/covid-19/",
+		"DONATION_LINK": "is.gd/6QJ5Gf",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 48,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru",
+		"TARGET_GROUPS": "Orphanages, Migrant workers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "AIFO",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://aifoindia.org/",
+		"DONATION_LINK": "https://www.ourdemocracy.in/Campaign/SurviveCOVID19Karnataka",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 49,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Urban poor, Migrant worker, Slum dwellers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protective Equipments",
+		"ORGANIZATION": "AID India",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://aidindia.org/responding-to-coronavirus/",
+		"DONATION_LINK": "https://aidindia.in/donate.php",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 50,
+	"fields": {
+		"STATE_UT": "Haryana",
+		"SPECIFIC_LOCATION": "Gurugram",
+		"TARGET_GROUPS": "Migrant workers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Agrasar | Give India",
+		"INITIATIVE": "Help migrant workers of Gurugram to keep safe from COVID'19",
+		"WEBSITE": "https://agrasar.org/",
+		"DONATION_LINK": "https://fundraisers.giveindia.org/campaigns/help-migrant-workers-of-gurugram-to-keep-safe-from-covid19/jointeam/423127a9bd02148259c3?fbclid=IwAR2fTJuTqtHkj_18FQty1o0kwXSJAruKq47hXBIahv8pFKKfqRcvemkLuQ8",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 51,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Ahmednagar",
+		"TARGET_GROUPS": "Daily wagers, Slum dwellers",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Snehalaya",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.snehalaya.org/",
+		"DONATION_LINK": "https://www.snehalaya.org/single-post/2020/03/30/Help-daily-wage-workers-others-in-need",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 52,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "Delhi, NCR",
+		"TARGET_GROUPS": "Urban poor, Migrant worker, Slum dwellers",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "Citizen Collective for Humanitarian Relief + Centre for Education & Communication",
+		"INITIATIVE": "Mazdoor Dhaba",
+		"WEBSITE": "https://kafila.online/2020/03/29/appeal-for-contributions-a-citizens-initiative-to-provide-humanitarian-relief-to-the-citys-working-classes/",
+		"DONATION_LINK": "https://kafila.online/2020/03/29/appeal-for-contributions-a-citizens-initiative-to-provide-humanitarian-relief-to-the-citys-working-classes/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 53,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Daily wagers",
+		"TYPE_OF_BENEFIT": "Cooked food, Personal Protection Equipment",
+		"ORGANIZATION": "CORO",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://coroindia.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-luis-miranda?community=10177",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 54,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "Delhi, Aligarh, Amroha, Bhopal, Nagda",
+		"TARGET_GROUPS": "Daily wagers, Urban poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief",
+		"ORGANIZATION": "Delhi Youth Welfare Association",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "http://dywa.co.in/",
+		"DONATION_LINK": "https://www.ourdemocracy.in/Campaign/covid19Delhi",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 55,
+	"fields": {
+		"STATE_UT": "Tamil Nadu",
+		"SPECIFIC_LOCATION": "Chennai",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers, Urban poor, Medical professionals & health workers",
+		"TYPE_OF_BENEFIT": "Cooked food",
+		"ORGANIZATION": "YR Gaitonde Medical, Educational and Research Foundation",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://yrgcare.org/",
+		"DONATION_LINK": "https://ecokitchen.org/eco/covid19/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 56,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers, Urban poor, Homeless people, Waste pickers, Transpersons, Slum dwellers, Farmers, Rural poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash Relief",
+		"ORGANIZATION": "India Fellow",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.indiafellow.org/covid-relief/",
+		"DONATION_LINK": "https://www.ketto.org/fundraiser/direct-bank-transfer-for-covid19-lockdown-affected-migrantsdaily-wagers?query=covid&payment=form",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 57,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru",
+		"TARGET_GROUPS": "Migrant workers, Slum and street children",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "Diya Ghar + XLRI Alumni Association",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.diyaghar.org/",
+		"DONATION_LINK": "https://covid19.ketto.org/fundraiser/diyagharforcovid19relief",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "No",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 58,
+	"fields": {
+		"STATE_UT": "Telangana",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Daily wagers, Sanitation staff/Safai karamchaari, Medical professionals & health workers, Tribals, Farmers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment, Medical needs",
+		"ORGANIZATION": "Nirmaan Organization",
+		"INITIATIVE": "Operation Sahaaya Project: Response to Covid-19",
+		"WEBSITE": "https://nirmaan.org/  https://www.facebook.com/photo?fbid=10159860570718438&set=a.453994648437",
+		"DONATION_LINK": "https://nirmaan.org/donation.html?fbclid=IwAR0GClKAyV004SNkbHSSbXesTW6rttMpyJyIrrneghJSrzmA91ZrxdFP5Sk",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 59,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Drivers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Medical needs",
+		"ORGANIZATION": "Ola Foundation",
+		"INITIATIVE": "Drive the Driver Welfare Fund",
+		"WEBSITE": "https://ola.foundation/donate",
+		"DONATION_LINK": "https://ola.foundation/donate",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 60,
+	"fields": {
+		"STATE_UT": "Delhi",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Animals care",
+		"TYPE_OF_BENEFIT": "N/A",
+		"ORGANIZATION": "Frendicoes",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://friendicoes.org/  https://www.facebook.com/friendicoesindia/",
+		"DONATION_LINK": "https://friendicoes.org/onlinedonation/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 61,
+	"fields": {
+		"STATE_UT": "Karnataka",
+		"SPECIFIC_LOCATION": "Bengaluru",
+		"TARGET_GROUPS": "Animals care",
+		"TYPE_OF_BENEFIT": "N/A",
+		"ORGANIZATION": "CUPA (Compassion Unlimited Plus Action)",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://cupabangalore.org/  https://www.facebook.com/cupaindia",
+		"DONATION_LINK": "https://cupabangalore.org/donate-now/",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 62,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Medical professionals & health workers, Immuno-compromised children/adults",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment, Medical needs",
+		"ORGANIZATION": "CANKIDS...KIDSCAN",
+		"INITIATIVE": "C3 initiative",
+		"WEBSITE": "https://www.cankidsindia.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-cankids-kidscan-1?community=10177",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 63,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai",
+		"TARGET_GROUPS": "Urban poor, Homeless people, Slum dwellers, Migrant workers, Daily wagers",
+		"TYPE_OF_BENEFIT": "Daily essentials, Cash relief",
+		"ORGANIZATION": "Apnalaya",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.giveindia.org/nonprofit/apnalaya",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-people-of-shivaji-nagar?community=10177",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 64,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "N/A",
+		"TARGET_GROUPS": "Daily wagers, Rural poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment, Awareness generation",
+		"ORGANIZATION": "Humanity Welfare Council",
+		"INITIATIVE": "Team CURE",
+		"WEBSITE": "https://www.hwc.international/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-india",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Info Unavailable",
+		"INFO": "N/A"
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 65,
+	"fields": {
+		"STATE_UT": "Nation-wide",
+		"SPECIFIC_LOCATION": "Delhi, Jhabua, Alirajpur, Dhar, Neemuch, Ujjain, Khargone, Khandwa, Sagar, Tikamgarh, Damoh, Panna, Chhatarpur, Dewas, Indore, Noida, Ghaziabad, Banda, Lalitpur, Chitrakoot, Mahoba, Jhansi",
+		"TARGET_GROUPS": "Daily wagers, Migrant workers, Urban poor, Rural poor",
+		"TYPE_OF_BENEFIT": "Daily essentials, Personal Protection Equipment, Cash relief, Awareness generation",
+		"ORGANIZATION": "Jan Sahas Social Development Society",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://jansahasindia.org/",
+		"DONATION_LINK": "https://milaap.org/fundraisers/support-jan-sahas-social-development-society?community=10177",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "100% tax exemption on donation available through 35AC."
+	}
+}, {
+	"model": "ngoTable.ngotable",
+	"pk": 66,
+	"fields": {
+		"STATE_UT": "Maharashtra",
+		"SPECIFIC_LOCATION": "Mumbai, Thane",
+		"TARGET_GROUPS": "Old and infirm, Disabled people",
+		"TYPE_OF_BENEFIT": "Daily essentials",
+		"ORGANIZATION": "NADE (National Association of Disabled's Enterprise)",
+		"INITIATIVE": "N/A",
+		"WEBSITE": "https://www.nade-india.org/  https://www.facebook.com/nademumbai/",
+		"DONATION_LINK": "https://pages.razorpay.com/CV19ERF",
+		"DONATION_INFO": "N/A",
+		"FOREIGN_DONATION": "Yes",
+		"INFO": "50% tax exemption on donation available through 80G."
 	}
 }]

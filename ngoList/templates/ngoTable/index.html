@@ -1,50 +1,6 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-    	<!-- meta charec set -->
-        <meta charset="utf-8">
-		<!-- Always force latest IE rendering engine or request Chrome Frame -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!-- Page Title -->
-        <title>Themefisher.Free Bootstrap3 based HTML5 Templates</title>		
-		<!-- Meta Description -->
-        <meta name="description" content="Blue One Page Creative HTML5 Template">
-        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Muhammad Morshed">
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- Google Font -->
-		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+{% extends 'base.html' %} 
+{% block body %} 
 
-		<!-- CSS
-		================================================== -->
-		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-		<!-- Twitter Bootstrap css -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
-		<link href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css" rel="stylesheet">
-		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
-		<!-- animate -->
-        <link rel="stylesheet" href="/static/css/animate.css">
-		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="/static/css/main.css">
-		<!-- media-queries -->
-        <link rel="stylesheet" href="/static/css/media-queries.css">
-
-		<!-- Modernizer Script for old Browsers -->
-        <script src="/static/js/modernizr-2.6.2.min.js"></script>
-
-    </head>
-	
-    <body id="body">
-	
 		<!-- preloader -->
 		<div id="preloader">
 			<img src="/static/img/preloader.gif" alt="Preloader">
@@ -54,37 +10,7 @@
         <!-- 
         Fixed Navigation
         ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo -->
-                    <!-- <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<img src="/static/img/logo.png" alt="Brandi">
-						</h1>
-					</a> -->
-					<!-- /logo -->
-                </div>
-
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">Home</a></li>
-						<li><a href="#ngotable">List of NGOs</a></li>
-						<li><a href="#about">About The DB</a></li>
-                    </ul>
-                </nav>
-				<!-- /main nav -->
-				
-            </div>
-        </header>
+        {% include 'partials/_navbar.html' %}
         <!--
         End Fixed Navigation
 		==================================== -->
@@ -92,59 +18,7 @@
 		<!--
         Home Slider
         ==================================== -->
-		
-		<section id="facts" class="facts">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row number-counters">
-
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Be the HERO you alwasys wanted to be.</h2>
-							<h3>There is no exercise better for the heart than reaching down and lifting people up.  </h3>
-							<div class="devider"><i class="fa fa-lg"></i></div>
-						</div>
-						
-						
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>COVID-19 Statistics</h2>
-						</div>
-						
-						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<strong data-to="1123024">500000</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Worldwide Infected</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<strong data-to="59884">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Worldwide Deceased</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="counters-item">
-								<strong data-to="2902">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Infected in India</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<strong data-to="68">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Deceased in India</p>
-							</div>
-						</div>
-						<!-- end first count item -->
-				
-					</div>
-				</div>
-			</div>
-		</section>
-		
+		{% include 'partials/_homeslider.html' %}
         <!--
         End Home SliderEnd
         ==================================== -->
@@ -180,12 +54,17 @@
 											<th data-field="ORGANIZATION" data-filter-control="input">ORGANIZATION NAME</th>
 											<th data-field="TARGET_GROUPS" data-filter-control="input">TARGET BENEFICIARY GROUPS
 												<a id="state-info" href=# data-toggle="popover" data-content="
-																	<div>Search for the Beneficiary Group NGOs are helping.</div>
-																												" data-html="true" data-trigger="hover" data-placement="bottom" onclick="return false;">
+																						<div>{% for ngo in ngo_table_list %}
+																							{% for x in ngo.TARGET_GROUPS|target_groups:',' %}
+																							{% endfor %}
+																						{% endfor %}
+																						{{ var|ans }}
+																					</div>
+																												" data-html="true" data-trigger="focus" data-placement="bottom" onclick="return false;">
 													<i class="fa fa-info-circle"></i>
 												</a>
 											</th>
-											<th data-field="TYPE_OF_BENEFIT" data-filter-control="input">TYPE OF SUPPORT TO BENEFICIARY</th>
+											<th data-field="FOREIGN_DONATION" data-filter-control="select">FOREIGN DONATION ACCEPTED?</th>
 											<th class="text-center pb-2">FURTHER INFORMATION</th>
 										</tr>
 								</thead>
@@ -195,7 +74,7 @@
 									<td class="table-text">{{ ngo.STATE_UT }}</td>
 									<td class="table-text">{{ ngo.ORGANIZATION }}</td>
 									<td class="table-text">{{ ngo.TARGET_GROUPS }}</td>
-									<td class="table-text">{{ ngo.TYPE_OF_BENEFIT }}</td>
+									<td class="table-text">{{ ngo.FOREIGN_DONATION }}</td>
 									<td>
 										<button type="button" class="btn btn-info" data-toggle="modal" data-target="#{{ngo.pk}}">More Info >></button>
 									  </td>
@@ -276,101 +155,32 @@
 		<!--
         About Us
         ==================================== -->		
-		
-		<section id="about" class="contact">
-			<div class="container">
-				<div class="row mb50">
-					<div class="sec-title col-xs-12 text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-						<h2>About The Database</h2>
-						<div class="devider"><i class="fa fa-lg"></i></div>
-					</div>
-					
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p class="pd-lr-1">
-							In these difficult times for India, many people want to donate to organizations involved in Covid-19
-							(Novel Coronavirus) relief efforts. Several organizations are helping people impacted by this disease,
-							and by the much-needed lockdown currently going on to fight it.<br><br>
-							However, figuring out trusted organizations and charities to donate to can be difficult.<br><br>
-							Although governmental machinery is running on overdrive, and several governmental funds exist at
-							the central and state levels, <u>NGOs are working heavily in taking service delivery to the grassroots,
-							and to people who may slip through governmental relief efforts.</u> <b>THEY NEED OUR HELP.</b><br><br>
-							<u>This searchable database consists of registered NGOs needing donations to facilitate activities
-							related to Covid-19 relief efforts.</u><br><br>
-							You can search for organizations based on the State/Union Territory of operation (Nation-wide or
-							you can choose a State/UT), beneficiary groups that the NGO targets, the type of support the NGO
-							provides to beneficiaries, and whether or now the NGO accepts foreign donations. Once you find
-							potential NGOs of your interest, you can click on “MORE INFO &gt;&gt;” to get more information about the
-							NGO, including URLs to their website and donation links.
-						</p>
-					</div>
-					
-				</div>
-			</div>
-			
-		</section>
-		
+		{% include 'partials/_aboutus.html' %}
         <!--
         End Contact Us
 		==================================== -->
-		
 
-		
-		<footer id="footer" class="footer">
-			<div class="container">
-				<div class="row">
-				
-					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="footer-single">
-							<h6>Disclaimer: </h6>
-							<p>We have tried our best to verify organizations based on their websites, governmental and private
-								certifications, and social media presence. However, we cannot guarantee about their work or how
-								the money would be spent. We request you to do due diligence before donating to an organization.</p>
-						</div>
-					</div>
-				
-					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="footer-single footer-team">
-							<h6>The Team:</h6>
-							<p>
-								<u>NGOs data collected by</u>: Arpeet Sahoo, Dayani Chakravarthy, Dina Nethisa Rasquinha, D Kaikho,
-								Manaswi Raghurama, Naman Tiwari, Rose Sebastian Kunnappallil, Soumya Rao, Srabasti Nandi
-								<br><br>
-								<u>Technical Team</u>: Parth Jeet, Chandan Pandey, Kamran Akhtar, Kishan Kumar<br><br>
-								We would like to acknowledge two pre-existing spreadsheets from where we started building this
-								database:<br>
-								<a href=https://drive.google.com/file/d/1LDIV5Bm1m4A8o8QRZDcclAVHxfdf_UpI/view>bit.ly/CovidDonationsIndia</a><br>
-								<a href=https://docs.google.com/spreadsheets/u/2/d/1FyqTYsNLA-S1Y1F-utl6nKjzL0zyyjIkRyjMUg5Pw74/htmlview#gid=0>bit.ly/CovidCampaignsIndia</a>
-							</p>
-						</div>
-					</div>
-				
-					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="footer-single">
-							<h6>Support</h6>
-							<p>
-								In case of any questions or suggestions, please contact Manaswi: <a href="mailto:manaswi1993@gmail.com">manaswi1993@gmail.com</a>
-							</p>
-						</div>
-					</div>
-					
-				</div>
+		<!--
+        Footer Start
+		==================================== -->
+		{% include 'partials/_footer.html' %}	
+		<!--
+        Footer End
+		==================================== -->	
 
-			</div>
-		</footer>
-		
 		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
 		<!-- Essential jQuery Plugins
 		================================================== -->
 		<!-- Main jQuery -->
-		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="/static/js/jquery-1.11.1.min.js"></script>
 		<!-- Single Page Nav -->
         <script src="/static/js/jquery.singlePageNav.min.js"></script>
 		<!-- Twitter Bootstrap -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
-		<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
-		<script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/bootstrap-table.min.js"></script>
+		<script src="/static/js/bootstrap-table-filter-control.min.js"></script>
+		<script src="/static/js/jquery.dataTables.min.js"></script>
 		<!-- jquery.fancybox.pack -->
         <script src="/static/js/jquery.fancybox.pack.js"></script>
 		<!-- jquery.mixitup.min -->
@@ -381,9 +191,6 @@
         <script src="/static/js/jquery-countTo.js"></script>
 		<!-- jquery.appear -->
         <script src="/static/js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 		<!-- jquery easing -->
         <script src="/static/js/jquery.easing.min.js"></script>
 		<!-- jquery easing -->
@@ -433,62 +240,5 @@
 		$('[data-toggle="popover"]').popover();   
 	});
 	</script>
-		
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
-    </body>
-</html>
+
+{% endblock %}

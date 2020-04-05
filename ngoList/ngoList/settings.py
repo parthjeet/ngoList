@@ -27,7 +27,9 @@ SECRET_KEY = '8#28_ov)=go0gn6%v4c14lgg6ro#2654^@1cx6#v-!!g%cfa6^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.covid19ngolist.online',
+                 '127.0.0.1',   
+                ]
 
 
 # Application definition
@@ -126,4 +128,4 @@ STATICFILE_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")

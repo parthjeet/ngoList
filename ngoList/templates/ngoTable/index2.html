@@ -9,7 +9,7 @@
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<!-- Page Title -->
-        <title>Themefisher.Free Bootstrap3 based HTML5 Templates</title>		
+        <title>covid19ngolist</title>		
 		<!-- Meta Description -->
         <meta name="description" content="Blue One Page Creative HTML5 Template">
         <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
@@ -76,9 +76,9 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">Home</a></li>
-						<li><a href="#ngotable">List of NGOs</a></li>
-						<li><a href="#about">About The DB</a></li>
+                        <li class="current"><a class="nav-link" href="#body">Home</a></li>
+						<li><a class="nav-link" href="#ngotable">List of NGOs</a></li>
+						<li><a class="nav-link" href="#about">About The DB</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -99,8 +99,9 @@
 					<div class="row number-counters">
 
 						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Be the HERO you alwasys wanted to be.</h2>
-							<h3>There is no exercise better for the heart than reaching down and lifting people up.  </h3>
+							<h2>Be the HERO you always wanted to be.</h2>
+							<h3>Filter and Search for the cause closer to your heart,  </h3>
+							<h3 class="pt-none">'cause there is no exercise better for the heart than reaching down and lifting people up.  </h3>
 							<div class="devider"><i class="fa fa-lg"></i></div>
 						</div>
 						
@@ -152,7 +153,7 @@
         <!--
         NGO Table
         ==================================== -->
-		
+		{% load splitter %}
 		<section id="ngotable" class="">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -174,12 +175,23 @@
 										<tr>
 											<th data-field="STATE_UT" data-filter-control="select">STATE/UT
 												<a id="state-info" href=# data-toggle="popover" data-content="Select 'nation-wide' for NGOs working in more than one State/UT." data-trigger="hover" data-placement="right" onclick="return false;">
-
-												<i class="fa fa-info-circle"></i></a>
+													<i class="fa fa-info-circle"></i>
+												</a>
 											</th>
 											<th data-field="ORGANIZATION" data-filter-control="input">ORGANIZATION NAME</th>
-											<th data-field="TARGET_GROUPS" data-filter-control="input">TARGET BENEFICIARY GROUPS</th>
-											<th data-field="TYPE_OF_BENEFIT" data-filter-control="input">TYPE OF SUPPORT TO BENEFICIARY</th>
+											<th data-field="TARGET_GROUPS" data-filter-control="input">TARGET BENEFICIARY GROUPS
+												<a id="state-info" href=# data-toggle="popover" data-content="
+																						<div>{% for ngo in ngo_table_list %}
+																							{% for x in ngo.TARGET_GROUPS|target_groups:',' %}
+																							{% endfor %}
+																						{% endfor %}
+																						{{ var|ans }}
+																					</div>
+																												" data-html="true" data-trigger="focus" data-placement="bottom" onclick="return false;">
+													<i class="fa fa-info-circle"></i>
+												</a>
+											</th>
+											<th data-field="FOREIGN_DONATION" data-filter-control="select">FOREIGN DONATION ACCEPTED?</th>
 											<th class="text-center pb-2">FURTHER INFORMATION</th>
 										</tr>
 								</thead>
@@ -189,7 +201,7 @@
 									<td class="table-text">{{ ngo.STATE_UT }}</td>
 									<td class="table-text">{{ ngo.ORGANIZATION }}</td>
 									<td class="table-text">{{ ngo.TARGET_GROUPS }}</td>
-									<td class="table-text">{{ ngo.TYPE_OF_BENEFIT }}</td>
+									<td class="table-text">{{ ngo.FOREIGN_DONATION }}</td>
 									<td>
 										<button type="button" class="btn btn-info" data-toggle="modal" data-target="#{{ngo.pk}}">More Info >></button>
 									  </td>
@@ -218,9 +230,23 @@
 																	<li class="list-group-item">
 																		<b>Initiative: </b>{{ ngo.INITIATIVE }}</li>
 																	<li class="list-group-item">
-																		<b>Website: </b>{{ ngo.WEBSITE }}</li>
+																		<b>Website: </b>{% for key, val in ngo.WEBSITE|split:"," %}
+																		{% if val == "no" %}
+																			{{ key }} 
+																		{% else %}
+																			<a href= "{{key}}"> {{key}}</a>
+																		{% endif %}
+																		{% endfor %}
+																	</li>
 																	<li class="list-group-item">
-																		<b>Donation Link: </b>{{ ngo.DONATION_LINK }}</li>
+																		<b>Donation Link: </b>{% for key, val in ngo.DONATION_LINK|split:"," %}
+																		{% if val == "no" %}
+																			{{ key }}
+																		{% else %}
+																			<a href= "{{key}}"> {{key}}</a>
+																		{% endif %}
+																		{% endfor %}
+																	</li>
 																	<li class="list-group-item">
 																		<b>Donation Information: </b>{{ ngo.DONATION_INFO }}</li>
 																	<li class="list-group-item">
@@ -312,14 +338,25 @@
 						<div class="footer-single footer-team">
 							<h6>The Team:</h6>
 							<p>
-								<u>NGOs data collected by</u>: Arpeet Sahoo, Dayani Chakravarthy, Dina Nethisa Rasquinha, D Kaikho,
-								Manaswi Raghurama, Naman Tiwari, Rose Sebastian Kunnappallil, Soumya Rao, Srabasti Nandi
-								<br><br>
-								<u>Technical Team</u>: Parth Jeet, Chandan Pandey, Kamran Akhtar, Kishan Kumar<br><br>
+								<u>Technical Team</u>: <a href="https://www.linkedin.com/in/parthjeet/" class="footer-link">Parth Jeet</a>, 
+														<a href="https://www.linkedin.com/in/ckp1990/" class="footer-link"> Chandan K Pandey</a>, 
+														<a href="https://www.linkedin.com/in/akhtar927/" class="footer-link"> Kamran Akhtar</a>, 
+														<a href="https://www.linkedin.com/in/kishan-kumar-171082108/" class="footer-link"> Kishan Kumar</a><br><br>
+								<u>NGOs data collected by</u>: 
+														<a href="https://www.linkedin.com/in/arpeet-sahoo-a094706a/" class="footer-link"> Arpeet Sahoo</a>, 
+														Dayani Chakravarthy, 
+														Dina Nethisa Rasquinha, 
+														D Kaikho,
+														<a href="https://www.linkedin.com/in/manaswi-raghurama-3566297a/" class="footer-link">Manaswi Raghurama</a>, 
+														Naman Tiwari, 
+														Rose Sebastian Kunnappallil, 
+														<a href="https://www.linkedin.com/in/a-soumya-rao-9bb483128/" class="footer-link">Soumya Rao</a>, 
+														Srabasti Nandi<br><br>
+
 								We would like to acknowledge two pre-existing spreadsheets from where we started building this
 								database:<br>
-								<a href=https://drive.google.com/file/d/1LDIV5Bm1m4A8o8QRZDcclAVHxfdf_UpI/view>bit.ly/CovidDonationsIndia</a><br>
-								<a href=https://docs.google.com/spreadsheets/u/2/d/1FyqTYsNLA-S1Y1F-utl6nKjzL0zyyjIkRyjMUg5Pw74/htmlview#gid=0>bit.ly/CovidCampaignsIndia</a>
+								<a class = "footer-link" href=https://drive.google.com/file/d/1LDIV5Bm1m4A8o8QRZDcclAVHxfdf_UpI/view>bit.ly/CovidDonationsIndia</a><br>
+								<a class = "footer-link" href=https://docs.google.com/spreadsheets/u/2/d/1FyqTYsNLA-S1Y1F-utl6nKjzL0zyyjIkRyjMUg5Pw74/htmlview#gid=0>bit.ly/CovidCampaignsIndia</a>
 							</p>
 						</div>
 					</div>
@@ -328,7 +365,10 @@
 						<div class="footer-single">
 							<h6>Support</h6>
 							<p>
-								In case of any questions or suggestions, please contact Manaswi: <a href="mailto:manaswi1993@gmail.com">manaswi1993@gmail.com</a>
+								In case of any questions or suggestions, please contact <u>Manaswi: <a class = "footer-link" href="mailto:manaswi1993@gmail.com">manaswi1993@gmail.com</u></a>
+							</p>
+							<p>
+								For technical queries or suggestions, please contact <a class = "footer-link" href="https://www.linkedin.com/in/parthjeet/" ><u>Parth</u></a>
 							</p>
 						</div>
 					</div>
@@ -413,62 +453,5 @@
 		$('[data-toggle="popover"]').popover();   
 	});
 	</script>
-		
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
     </body>
 </html>

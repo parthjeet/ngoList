@@ -22,13 +22,32 @@ figure, p {
 }
 
 a {
-    color: #fff;
+    /* color: #fff; */
 	
     -webkit-transition: all .3s ease-in 0s;
        -moz-transition: all .3s ease-in 0s;
         -ms-transition: all .3s ease-in 0s;
          -o-transition: all .3s ease-in 0s;
             transition: all .3s ease-in 0s;
+}
+.footer-link{
+     color: #fff;
+	
+     -webkit-transition: all .3s ease-in 0s;
+     -moz-transition: all .3s ease-in 0s;
+      -ms-transition: all .3s ease-in 0s;
+       -o-transition: all .3s ease-in 0s;
+          transition: all .3s ease-in 0s;
+}
+
+.nav-link{
+  color: #fff;
+	
+  -webkit-transition: all .3s ease-in 0s;
+  -moz-transition: all .3s ease-in 0s;
+   -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+       transition: all .3s ease-in 0s;
 }
 
 iframe {
@@ -219,15 +238,14 @@ text-align: center;
 .table-text{
   text-align: center;
   font-size: 15px;
+  font-weight: 600;
 }
 
-#state-info{
-  color: grey;
+.pt-none{
+  padding-top: 1vh !important;
 }
 
-.list-group-item a{
-  color: #000;
-}
+
 
 
 
