@@ -25,7 +25,7 @@ FIXTURE_DIRS = (
 SECRET_KEY = '8#28_ov)=go0gn6%v4c14lgg6ro#2654^@1cx6#v-!!g%cfa6^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.covid19ngolist.online',
                  '127.0.0.1',   
